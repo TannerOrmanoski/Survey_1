@@ -1,0 +1,272 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto";
+    text-align: center;
+    background-image: url('dark-paths.png');
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+header {
+    background-image: url('3175990.jpg');
+    color: black;
+    padding: 10px;
+}
+
+header p {
+    font-size: 16px;
+}
+
+.survey {
+    width: 80%;
+    margin: 20px auto;
+    background-image: url('what-the-hex-dark.png');
+    color: white;
+    height: 200px;
+    border-radius: 3px;
+    box-shadow: 1px 1px 7px rgba(0, 0, 0, 0.4);
+}
+
+.survey h3 {
+    font-size: 20px;
+    margin: 8px;
+    padding-top: 10px;
+}
+
+.form-input {
+    font-size: 20px;
+    display: block;
+    width: 70%;
+    height: 2rem;
+    margin: 0;
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    background-color: #ffff;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+}
+
+.next-button1 {
+    font-size: 20px;
+    width: 30%;
+    height: 50px;
+    position: absolute;
+    top: 34%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    background: rgb(25, 230, 25);
+    color: white;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.next-button {
+    font-size: 20px;
+    width: 30%;
+    height: 50px;
+    position: absolute;
+    top: 34%;
+    left:50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    background: rgb(25, 230, 25);
+    color: white;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.next-button2 {
+    width: 30%;
+    height: 50px;
+    position: absolute;
+    top: 34%;
+    left:50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    background: rgb(25, 230, 25);
+    color: white;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.next-button3 {
+    font-size: 20px;
+    width: 30%;
+    height: 50px;
+    position: absolute;
+    top: 34%;
+    left:50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    background: rgb(25, 230, 25);
+    color: white;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.next-button4 {
+    font-size: 20px;
+    width: 30%;
+    height: 50px;
+    position: absolute;
+    top: 34%;
+    left:50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    background: rgb(25, 230, 25);
+    color: white;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.next-button5 {
+    font-size: 20px;
+    width: 30%;
+    height: 50px;
+    position: absolute;
+    top: 34%;
+    left:50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    background: rgb(25, 230, 25);
+    color: white;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.results-button {
+    font-size: 20px;
+    width: 30%;
+    height: 50px;
+    position: absolute;
+    top: 70%;
+    left:50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    background: rgb(25, 230, 25);
+    color: white;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.end {
+    width: 30%;
+    height: 100px;
+    position: absolute;
+    top: 24%;
+    left:50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    background: royalblue;
+    color: white;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.nlist {
+    width: 18%;
+    height: 200px;
+    position: absolute;
+    top: 20%; 
+    left: 2%;
+    color: white;
+}
+
+.tlist {
+    width: 18%;
+    height: 200px;
+    position: absolute;
+    top: 20%; 
+    left: 20%;
+}
+
+.rlist {
+    width: 18%;
+    height: 200px;
+    position: absolute;
+    top: 20%; 
+    left: 40%;
+}
+
+.relist {
+    width: 18%;
+    height: 200px;
+    position: absolute;
+    top: 20%; 
+    left: 60%;
+}
+
+.flist {
+    width: 18%;
+    height: 200px;
+    position: absolute;
+    top: 20%; 
+    left: 80%; 
+}
+
+/* Display Change Properties */
+
+.q1 {
+    display: block;
+}
+
+.q2 {
+    display: none;
+}
+
+.q3 {
+    display: none;
+}
+
+.q4 {
+    display: none;
+}
+
+.q5 {
+    display: none;
+}
+
+.end {
+    display: none;
+}
+
+.results {
+    display: none;
+}
+
+.nlist {
+    display: none;
+}
+
+.tlist {
+    display: none;
+}
+
+.rlist {
+    display: none;
+}
+
+.relist {
+    display: none;
+}
+
+.flist {
+    display: none;
+}
+
